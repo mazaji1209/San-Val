@@ -19,39 +19,11 @@ body {
 <a href="index.html">
     <button class="button button1" class="center">volver</button>
 </a>
-<a href="index.html">
+<a href="conteo.html">
     <button class="button button2" class="center">confirmar</button>
 </a>
 
-    <div id="resultado">
-        
-    </div>
-    <div id="minuto">
-
-    </div>
-    <div id="segundo">
-
-    </div>
 </body>
-
-<script type="text/javascript"> 
-    var final = moment("2024-02-14");
-    setInterval(function() {
-        var inicio = moment();
-        var duracion = final.diff(inicio);
-        var intervalo = moment(duracion);
-        var mes = intervalo.month()+1;
-        var diaDelMes = intervalo.date();
-        var hora = intervalo.hour();
-        var minuto = intervalo.minute();
-        var segundo = intervalo.second();
-        var resultado = (intervalo.format("MM/DD HH:mm:ss"));
-        $("#resultado").html(mes + " Meses " + diaDelMes + " Dias " + hora + " Horas " + minuto + " Minutos " + segundo + " Segundos");
-        $("#minuto").html(minuto);
-        $("#segundo").html(segundo);
-    }, 1000);
-    
-</script>
 
 
 </html>
