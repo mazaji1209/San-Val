@@ -45,6 +45,6 @@ body {
     width: 50%;
     cursor: pointer;
   }
-  .button1 {background-color: #04AA6D;} /* Green */
+  .button1 {background-color: burlywood;} /* Green */
   .button2 {background-color: red;} /* Blue */
 
