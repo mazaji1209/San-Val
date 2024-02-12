@@ -12,10 +12,17 @@ body {
     text-align: center;
     font-weight: 400;
   }
+  h3 {
+    color: 	#4F7942;
+    text-align: center;
+    font-weight: 400;
+  }
   
   p {
+    color: 	#4F7942;
     font-family: verdana;
     font-size: 20px;
+    text-align: center;
   }
   .center {
         display: block;
