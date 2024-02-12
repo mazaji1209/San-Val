@@ -1,3 +1,12 @@
+body {
+    background-color: 	#353935;
+  }
+  
+  h1 {
+    color: #4F7942;
+    text-align: center;
+    font-weight: 800;
+}
 .button {
     border: none;
     color: white;
